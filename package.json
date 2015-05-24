@@ -1,0 +1,40 @@
+{
+  "name": "mockaf",
+  "version": "1.0.0",
+  "description": "Mocks *AnimationFrame methods.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "browserify test/mockaf.test.js | testling"
+  },
+  "testling": {
+    "files": "test/mockaf.test.js",
+    "browsers": [
+      "chrome/latest"
+    ]
+  },
+  "keywords": [
+    "mock",
+    "animation",
+    "frame",
+    "request",
+    "cancel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tanem/mockaf.git"
+  },
+  "homepage": "https://github.com/tanem/mockaf",
+  "author": {
+    "name": "Tane Morgan",
+    "url": "http://github.com/tanem"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^10.2.1",
+    "tape": "^4.0.0",
+    "testling": "^1.7.1"
+  }
+}
