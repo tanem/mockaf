@@ -1,6 +1,6 @@
 {
   "name": "mockaf",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mocks *AnimationFrame methods.",
   "main": "index.js",
   "directories": {
