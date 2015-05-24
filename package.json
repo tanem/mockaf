@@ -1,6 +1,6 @@
 {
   "name": "mockaf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mocks *AnimationFrame methods.",
   "main": "index.js",
   "directories": {
@@ -12,7 +12,11 @@
   "testling": {
     "files": "test/mockaf.test.js",
     "browsers": [
-      "chrome/latest"
+      "ie/latest",
+      "chrome/latest",
+      "firefox/latest",
+      "safari/latest",
+      "opera/latest"
     ]
   },
   "keywords": [
