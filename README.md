@@ -2,20 +2,18 @@
 
 Mocks *AnimationFrame methods.
 
+[![NPM version](https://badge.fury.io/js/mockaf.svg)](http://badge.fury.io/js/mockaf)
 [![browser support](https://ci.testling.com/tanem/mockaf.png)](https://ci.testling.com/tanem/mockaf)
-
 
 ## Motivation
 
 When unit testing, it can sometimes be useful to mock the *AnimationFrame methods if the code under test makes use of them. Using `mockaf` allows us to execute *AnimationFrame code in the same tick, making the tests a little easier to write.
-
 
 ## Installation
 
 ```
 $ npm install mockaf
 ```
-
 
 ## Example
 
@@ -45,7 +43,6 @@ mockaf.tick();
 mockaf.uninstall();
 ```
 
-
 ## API
 
 ```js
@@ -64,13 +61,11 @@ Execute any callbacks stored via the mocked *AnimationFrame methods since the la
 
 Restore original *AnimationFrame methods on the window object.
 
-
 ## Tests
 
 ```
 $ npm test
 ```
-
 
 ## Credits
 
