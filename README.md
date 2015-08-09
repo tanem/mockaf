@@ -71,3 +71,7 @@ $ npm test
 
 * [RAFPlugin.js](https://gist.github.com/ischenkodv/43934774f4509fcb5791)
 * [raf.js](https://gist.github.com/rwaldron/1058681)
+
+## License
+
+MIT
