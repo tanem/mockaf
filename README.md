@@ -1,5 +1,7 @@
 # mockaf
 
+> **Unmaintained.** This project is no longer maintained and the repository is archived. The npm package is deprecated.
+
 Mocks *AnimationFrame methods.
 
 [![browser support](https://ci.testling.com/tanem/mockaf.png)](https://ci.testling.com/tanem/mockaf)
